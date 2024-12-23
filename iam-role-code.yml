@@ -24,4 +24,5 @@ Resources:
               - Effect: Allow
                 Action:
                   - s3:GetObject
+                  - s3:ListBucket
                 Resource: !arn:aws:s3:::new-bucket-9.30-demo/*
